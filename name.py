@@ -70,6 +70,7 @@ class consider:
                 v += ord(t[i][j])
                 l += int(ord(t[i][j]))-int(ord(t[i][j]))/int(ord(t[i][j]) * 2.314)
                 print("added up ", str(v), str(l))
+                print(chr(math.ceil((v))), chr(math.ceil((l))))
 
 class reconsider(consider):
     def __init__(self, name1, name2, name3):
